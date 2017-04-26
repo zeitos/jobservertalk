@@ -6,7 +6,7 @@ ideaExcludeFolders += ".idea"
 
 ideaExcludeFolders += ".idea_modules"
 
-organization := "com.avenida"
+organization := "com.jampp"
 
 version := "0.1"
 
@@ -21,9 +21,10 @@ val commonResolvers = Seq(Resolver.mavenLocal,
 
 libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % "2.2.1" % "test",
-  "spark.jobserver" %% "job-server-api" % "0.5.1" % "provided",
-  "org.apache.spark" %% "spark-core" % "1.4.0" % "provided",
-  "org.apache.spark" %% "spark-mllib" % "1.4.0" % "provided"
+  "org.scalactic" %% "scalactic" % "2.2.6",
+  "spark.jobserver" %% "job-server-api" % "0.7.0" % "provided",
+  "org.apache.spark" %% "spark-core" % "1.6.2" % "provided",
+  "org.apache.spark" %% "spark-mllib" % "1.6.2" % "provided"
 )
 
 resolvers ++= commonResolvers

@@ -1,4 +1,4 @@
-package com.avenida.meetup.sugar
+package com.jampp.meetup.bigdata
 
 import com.typesafe.config.ConfigFactory
 import org.apache.spark.{SparkConf, SparkContext}
