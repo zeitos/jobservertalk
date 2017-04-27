@@ -1,4 +1,9 @@
-Step by step... oh baby...
+Step by step... 
+
+start jobserver:
+```
+docker run -d -p 8090:8090 sparkjobserver/spark-jobserver:0.7.0
+```
 
 upload:
 ```
